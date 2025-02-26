@@ -1,0 +1,21 @@
+.emoji-reaction-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emoji-list {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.emoji-icon {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.emoji-icon:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
